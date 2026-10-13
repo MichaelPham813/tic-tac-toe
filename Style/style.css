@@ -1,0 +1,26 @@
+html
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.containers
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+h1
+{
+    color:red;
+}
+
+p
+{
+    font-weight: bolder;
+    font-size:larger;
+    color:aqua
+}
