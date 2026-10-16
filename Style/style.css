@@ -1,8 +1,7 @@
-html
+html,body
 {
     height: 100%;
-    width: 100%;
-    background-color: black;
+    background-color: white;
 }
 .containers
 {
@@ -18,9 +17,31 @@ h1
     color:red;
 }
 
-p
+.grid-containers
 {
-    font-weight: bolder;
-    font-size:larger;
-    color:aqua
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width:700px;
+    height:1000px;
+}
+
+.grid-items
+{
+    display:inline-grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    /* border: solid 1px; */
+    width:700px;
+    height:1000px;
+
+}
+
+.items
+{
+    border: solid 1px;
+    height:100%;
+    width:100%;
+    margin:0;
 }
